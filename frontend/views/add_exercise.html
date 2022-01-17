@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add exercise</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/add_exercise.js"></script>
+</head>
+
+<body>
+    
+    <main class="appcontainer">
+
+        <h1>Add Exercise</h1>
+
+        <form id="addExercise">
+            <label for="exerciseName">Exercise Name</label>
+            <input type="text" name="exerciseName" id="exerciseName">
+            <label for="avgCalBurned">Average Calories burned</label>
+            <input type="number" name="avgCalBurned" id="avgCalBurned">
+            <label for="userID">userID</label>
+            <input type="int" name="userID" id="userID">
+            <label for="submit">Submit</label>
+            <input type="button" name="submit" id="submit" onclick="addExercise()">
+        </form>
+
+
+    </main>
+
+
+</body>
+
+</html>

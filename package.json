@@ -1,0 +1,24 @@
+{
+  "name": "fitness-app",
+  "version": "1.0.0",
+  "description": "- Track excercies that the users inputs with what exercise it is and the weight used or for cardio the duration and speed ect\r - Track the food the user inputs with its macronurtrients and caloric values\r - Keep records of the users exercise history so they can view their progress and previous lifts\r - Keep records of the users total caloric intake so they can view their history and eating patterns",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiImJustin/fitness_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiImJustin/fitness_app/issues"
+  },
+  "homepage": "https://github.com/HiImJustin/fitness_app#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  }
+}

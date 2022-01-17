@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: grey;
+}
+main {
+    height: 760px;
+    width: 360px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Styling for my routines */
+.myroutinesheader {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+.myroutines-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 60px 60px;
+    grid-template-rows: 40px 100px;
+    margin-top: 10px;
+}
+.createdroutineheading {
+    grid-column: 1/2;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.workoutbox {
+    grid-row: 2;
+    padding: 5px;
+}
+.routine-edit {
+    grid-area: 2 / 2;
+    padding: 4px;
+}
+.routine-delete {
+    grid-area: 2 / 3;
+    padding: 4px;
+}
+/* End stlying for my routines */
+
+
+/*Styling for TDEE calcuation page */
+#tdee {
+    width: 33%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#tdee label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#tdee input {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+}
+/*End of TDEE styling */
+
+/* add_exercise.html styling */
+#addExercise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#addExercise input {
+    width: 200px;
+}
+/* end of styling for add_exercise */
+
+/* styling for routineBuilder */
+#exercise-options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#exercise {
+    width: 200px;
+    height: 40px;
+    background-color: grey;
+    border: solid 2px black;
+    margin: 5px 0px 5px 0px;
+}
+/* end of styling for routine Builder */
